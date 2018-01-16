@@ -56,7 +56,7 @@ To build OpenYandere you'll need Unity 2018.1.0b2 and NET 4.6 framework.
 	- [ ] Create a basic building using cubes.
 	- [ ] Have NPCs go to points designated as classes.
 	
-6 Create "senpai".
+6. Create "senpai".
 	- [ ] Senpai's aura. When the player enters their screen goes pink.
 	- [ ] Comments on the behavior of the player.
 		- [ ] Reacts to the player holding a weapon.
