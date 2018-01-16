@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be463b7d2f234b6d96d9f92021278694, type: 3}
+  m_Name: TotallyNotACube
+  m_EditorClassIdentifier: 
+  Id: 1
+  Name: TotallyNotACube
+  Icon: {fileID: 0}
+  Type: 0
+  Description: I am a sphere.
+  Mesh: {fileID: 23502668540049896, guid: 06420dbbb7d47c141b35d647cf13ac71, type: 2}
+  BonePosition: {x: 0, y: 0, z: 0}
+  BoneScale: {x: 0, y: 0, z: 0}
+  IsEquipped: 0
+  Amount: 1

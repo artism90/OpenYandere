@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using OpenYandere.Managers;
 
-namespace OpenYandere.Characters.Interactions
+namespace OpenYandere.Interactions
 {
     internal abstract class Interactable : MonoBehaviour
     {
@@ -17,7 +17,7 @@ namespace OpenYandere.Characters.Interactions
         
         private bool _isPlayerInside;
         
-        [SerializeField] private Renderer _renderer;
+        [SerializeField] protected Renderer Renderer;
         [SerializeField] private Transform _attachTransform;
         
         protected virtual void Awake()
@@ -33,7 +33,7 @@ namespace OpenYandere.Characters.Interactions
             
             // If the mesh is currently being rendered by the camera, attempt
             // to show a radial prompt.
-            if (_renderer.isVisible)
+            if (Renderer.isVisible)
             {
                 ShowRadialPrompt();
             }

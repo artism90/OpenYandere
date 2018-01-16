@@ -2,7 +2,7 @@
 using OpenYandere.Managers;
 using OpenYandere.UI.TalkCanvas;
 
-namespace OpenYandere.Characters.Interactions.Prefabs.NPC
+namespace OpenYandere.Interactions.Prefabs.NPC
 {
     internal class TalkPrompt : Interactable
     {

@@ -11,6 +11,7 @@ namespace OpenYandere.Managers
         [Header("References:")]
         public GameObject Player;
         public PlayerMovement PlayerMovement;
+        public PlayerInventory PlayerInventory;
         
         private void Awake()
         {

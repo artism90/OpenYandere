@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
+using OpenYandere.Interactions;
 using OpenYandere.UI.TalkCanvas;
 using System.Collections.Generic;
 using OpenYandere.UI.Interactions;
-using OpenYandere.Characters.Interactions;
 
 namespace OpenYandere.Managers
 {

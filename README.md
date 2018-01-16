@@ -1,6 +1,6 @@
 # OpenYandere
 
-[Click here to join the community discord server.](https://discord.gg/yznXxXw).
+[Click here to join the community discord server.](https://discord.gg/yznXxXw)
 
 ## What is OpenYandere?
 

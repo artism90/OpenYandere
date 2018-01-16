@@ -4716,7 +4716,6 @@ MonoBehaviour:
   _renderer: {fileID: 137404591736235902}
   _attachTransform: {fileID: 4222004035940856}
   _npc: {fileID: 114476926328503522}
-  _dialogueBoxAnimator: {fileID: 0}
 --- !u!135 &135981748367628120
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -4947,6 +4946,6 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.03333334
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
