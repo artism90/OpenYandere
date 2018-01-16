@@ -23,7 +23,7 @@ To build OpenYandere you'll need Unity 2018.1.0b2 and NET 4.6 framework.
 			- [x] Compliment
 				- [x] Increase player's reputation by one point.
 			- [ ] Gossip
-				- [x] Design user interface ([concept](https://i.imgur.com/4dVf6Md.png), [final]()).
+				- [x] Design user interface ([concept](https://i.imgur.com/4dVf6Md.png)).
 				- [ ] Select a secret.
 				- [ ] The NPC spreads it to anyone they are friends with.
 			- [ ] Tasks
@@ -45,8 +45,8 @@ To build OpenYandere you'll need Unity 2018.1.0b2 and NET 4.6 framework.
 	- [ ] Updated dialogue to use this system.
 
 3. Inventory
-	- [ ] Design the user interface.
-	- [ ] Equip item.
+	- [x] Design the user interface.
+	- [x] Equip item.
 	- [ ] Drop item.
 	
 4. Heads-up Display
