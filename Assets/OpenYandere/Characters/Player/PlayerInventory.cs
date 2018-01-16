@@ -142,5 +142,10 @@ namespace OpenYandere.Characters.Player
         {
             // TODO
         }
+        
+        public Item[] GetItems()
+        {
+            return _inventoryDictionary.Values.ToArray();
+        }
     }
 }

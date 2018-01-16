@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 1
   Name: TotallyNotACube
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 58ae0dd792b7fb14c8a3156c6b9915d1, type: 3}
   Type: 0
   Description: I am a sphere.
   Mesh: {fileID: 23502668540049896, guid: 06420dbbb7d47c141b35d647cf13ac71, type: 2}
