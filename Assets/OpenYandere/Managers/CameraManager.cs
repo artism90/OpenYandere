@@ -7,5 +7,15 @@ namespace OpenYandere.Managers
     {
         [Header("References:")]
         public PlayerCamera PlayerCamera;
+        
+        public void Resume()
+        {
+            PlayerCamera.enabled = true;
+        }
+        
+        public void Pause()
+        {
+            PlayerCamera.enabled = false;
+        }
     }
 }

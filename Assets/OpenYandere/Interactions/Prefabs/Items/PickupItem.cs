@@ -46,6 +46,7 @@ namespace OpenYandere.Interactions.Prefabs.Items
             }
             else
             {
+                Debug.Log("Your inventory is ful1!");
                 // TODO: "Your inventory is full!"
             }
         }

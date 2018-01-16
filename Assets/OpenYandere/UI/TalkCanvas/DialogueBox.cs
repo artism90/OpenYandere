@@ -16,6 +16,8 @@ namespace OpenYandere.UI.TalkCanvas
 		    public string CharacterName;
 		    public string Text;
 	    }
+
+	    private GameManager _gameManager;
 	    
 	    private Player _player;
 	    private NPC _interactingWithNPC;
@@ -33,6 +35,7 @@ namespace OpenYandere.UI.TalkCanvas
 	    
 	    private void Awake()
 	    {
+		    _gameManager = GameManager.Instance;
 		    _player = GameManager.Instance.PlayerManager.Player.GetComponent<Player>();
 	    }
 
@@ -53,6 +56,8 @@ namespace OpenYandere.UI.TalkCanvas
 			    {
 				    _animator.SetBool("Visible", false);
 				    _isVisible = false;
+
+				    _gameManager.State = GameState.Normal;
 			    }
 		    }
 	    }
@@ -64,18 +69,26 @@ namespace OpenYandere.UI.TalkCanvas
 
 	    public void ShowBox()
 	    {
+		    if (_gameManager.State != GameState.Normal) return;
+		    
 		    _animator.SetBool("Visible", true);
 		    _isVisible = true;
+
+		    _gameManager.State = GameState.Dialogue;
 	    }
 	    
         public void ShowChoices()
         {
+	        if (_gameManager.State != GameState.Dialogue) return;
+	        
 	        _choicesAnimator.SetBool("Visible", true);
 	        _areChoicesVisible = true;
         }
 
 	    public void HideChoices()
 	    {
+		    if (_gameManager.State != GameState.Dialogue) return;
+		    
 		    _choicesAnimator.SetBool("Visible", false);
 		    _areChoicesVisible = false;
 	    }
