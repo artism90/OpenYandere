@@ -317,6 +317,7 @@ ModelImporter:
     400310: u_lip_center
     7400000: f02_damage_22_p
     9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -330,9 +331,23 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
+      rotation in copied configuration does not match rotation in animation file:\n\t'Spine1'
+      : rotation error = 6.333723 deg\n\t'Spine3' : rotation error = 6.219220 deg\n\t'LeftArmRoll'
+      : rotation error = 24.504513 deg\n\t'LeftForeArmRoll' : rotation error = 29.382490
+      deg\n\t'RightArmRoll' : rotation error = 7.612815 deg\n\t'RightForeArmRoll'
+      : rotation error = 23.453405 deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Spine1' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Spine3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'LeftArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'LeftForeArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'RightArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'RightForeArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'RightHandPinky3'
+      has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

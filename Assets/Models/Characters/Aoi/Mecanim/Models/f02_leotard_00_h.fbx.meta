@@ -323,7 +323,28 @@ ModelImporter:
     9500000: //RootNode
     11100000: //RootNode
     13700000: f02_leotard_00_h
-  externalObjects: {}
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_face_00_h
+    second: {fileID: 2100000, guid: e313eb755bef3c245bcdd1b74e34d1df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_hair_00_h
+    second: {fileID: 2100000, guid: f4f4a62c2a04063468fba7074bd96941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_leotard_00_h_c
+    second: {fileID: 2100000, guid: 1a14557f43da09148a89bc3b863bc3ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_leotard_00_h_s
+    second: {fileID: 2100000, guid: b2e085839977e514faffc5ea818cd358, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

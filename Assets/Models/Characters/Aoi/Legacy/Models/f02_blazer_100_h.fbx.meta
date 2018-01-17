@@ -323,7 +323,28 @@ ModelImporter:
     9500000: //RootNode
     11100000: //RootNode
     13700000: f02_blazer_100_h
-  externalObjects: {}
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_blazer_100_h_c
+    second: {fileID: 2100000, guid: 9dc2f17aab3270547abf48a151a7b21a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_blazer_100_h_s
+    second: {fileID: 2100000, guid: dce865f15a9c39e49b0a189a3064d014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_face_00_h
+    second: {fileID: 2100000, guid: 47d1ab4d27dd721438aadb0df3156d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f02_hair_00_h
+    second: {fileID: 2100000, guid: f1bcead8961811546833489f70971fc0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
