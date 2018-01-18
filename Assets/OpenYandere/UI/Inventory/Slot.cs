@@ -2,16 +2,19 @@
 using UnityEngine;
 using UnityEngine.UI;
 using OpenYandere.Items;
+using UnityEngine.EventSystems;
 
 namespace OpenYandere.UI.Inventory
 {
-    internal class Slot : MonoBehaviour
+    internal class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         private int _slotId;
         private Item _item;
         
         [Header("References:")]
+        [SerializeField] private InventoryUserInterface _inventoryUI;
         [SerializeField] private Image _slotIcon;
+        [SerializeField] private Button _button;
         [SerializeField] private TextMeshProUGUI _amount;
         
         public void Set(int slotId, Item item)
@@ -24,9 +27,8 @@ namespace OpenYandere.UI.Inventory
 			
             _slotIcon.sprite = item.Icon;
             _slotIcon.enabled = true;
-            
-            Debug.Log(_slotIcon.isActiveAndEnabled);
-            Debug.Log(_slotIcon.enabled);
+
+            _button.interactable = true;
         }
         
         public void OnSlotClicked()
@@ -45,6 +47,17 @@ namespace OpenYandere.UI.Inventory
             _item = null;
             _slotIcon.enabled = false;
             _amount.enabled = false;
+            _button.interactable = false;
+        }
+        
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            _inventoryUI.SetItemDetails(_item);
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            _inventoryUI.SetItemDetails(null);
         }
     }
 }

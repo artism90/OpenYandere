@@ -318,6 +318,7 @@ ModelImporter:
     7400000: f02_liedown_01
     9500000: //RootNode
     2186277476908879412: ImportLogs
+    2186277476908879414: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -333,7 +334,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
       rotation in copied configuration does not match rotation in animation file:\n\t'Spine1'
-      : rotation error = 12.803417 deg\n\t'Spine3' : rotation error = 13.715513 deg\n\t'LeftArmRoll'
+      : rotation error = 12.803416 deg\n\t'Spine3' : rotation error = 13.715513 deg\n\t'LeftArmRoll'
       : rotation error = 0.146900 deg\n\t'LeftForeArmRoll' : rotation error = 3.494325
       deg\n\t'RightArmRoll' : rotation error = 9.111587 deg\n\t'RightForeArmRoll'
       : rotation error = 71.018700 deg\n"

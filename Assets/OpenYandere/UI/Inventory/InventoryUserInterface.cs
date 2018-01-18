@@ -3,10 +3,11 @@ using OpenYandere.Characters.Player;
 using OpenYandere.Items;
 using UnityEngine;
 using OpenYandere.Managers;
+using TMPro;
 
 namespace OpenYandere.UI.Inventory
 {
-    internal class InventoryGrid : MonoBehaviour
+    internal class InventoryUserInterface : MonoBehaviour
     {
         private GameManager _gameManager;
         private CameraManager _cameraManager;
@@ -18,17 +19,25 @@ namespace OpenYandere.UI.Inventory
         [Tooltip("The key to be pressed to make the it appear/disappear.")]
         [SerializeField] private KeyCode _keyCode = KeyCode.I;
 		
-        [Header("References:")]
+        [Header("UI References:")]
         [SerializeField] private Animator _animator;
         [Tooltip("The parent of the slots.")]
         [SerializeField] private GameObject _slotsParent;
+        
+        [Header("Details References:")]
+        [SerializeField] private TextMeshProUGUI _itemNameBackground;
+        [SerializeField] private TextMeshProUGUI _itemNameForeground;
+        [SerializeField] private TextMeshProUGUI _itemDescriptionBackground;
+        [SerializeField] private TextMeshProUGUI _itemDescriptionForeground;
         
         [Header("Animations:")]
         [Tooltip("The animation to played when showing the inventory.")]
         [SerializeField] private AnimationClip _slideInClip;
         [Tooltip("The animation to played when hiding the inventory.")]
         [SerializeField] private AnimationClip _slideOutClip;
-
+        
+        // TODO: Learn how to write a custom editor, so all the classes taking in references can be collapsed in the Editor.
+        
         private void Awake()
         {
             _gameManager = GameManager.Instance;
@@ -53,6 +62,23 @@ namespace OpenYandere.UI.Inventory
             {
                 StartCoroutine(HideGrid());
             }
+        }
+
+        public void SetItemDetails(Item item)
+        {
+            if (item == null)
+            {
+                _itemNameBackground.text = string.Empty;
+                _itemNameForeground.text = string.Empty;
+                _itemDescriptionBackground.text = string.Empty;
+                _itemDescriptionForeground.text = string.Empty;
+                return;
+            }
+
+            _itemNameBackground.text = item.Name;
+            _itemNameForeground.text = item.Name;
+            _itemDescriptionBackground.text = item.Description;
+            _itemDescriptionForeground.text = item.Description;
         }
 
         private void HandleInventoryChanged()

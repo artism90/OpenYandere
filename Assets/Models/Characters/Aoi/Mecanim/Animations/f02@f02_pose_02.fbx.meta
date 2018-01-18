@@ -318,6 +318,7 @@ ModelImporter:
     7400000: f02_pose_02
     9500000: //RootNode
     2186277476908879412: ImportLogs
+    2186277476908879414: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -335,7 +336,7 @@ ModelImporter:
       copied configuration does not match position in animation file:\n\t'RightForeArm'
       : position error = 1.741320 mm\nCopied Avatar Rig Configuration mis-match. Inbetween
       bone rotation in copied configuration does not match rotation in animation file:\n\t'Spine1'
-      : rotation error = 9.411887 deg\n\t'Spine3' : rotation error = 10.708464 deg\n\t'LeftArmRoll'
+      : rotation error = 9.411888 deg\n\t'Spine3' : rotation error = 10.708463 deg\n\t'LeftArmRoll'
       : rotation error = 7.418046 deg\n\t'LeftForeArmRoll' : rotation error = 22.992468
       deg\n\t'RightArmRoll' : rotation error = 12.078783 deg\n\t'RightForeArmRoll'
       : rotation error = 2.576775 deg\n"

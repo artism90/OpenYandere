@@ -318,6 +318,7 @@ ModelImporter:
     7400000: f02_jump_12_c
     9500000: //RootNode
     2186277476908879412: ImportLogs
+    2186277476908879414: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -333,7 +334,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
       rotation in copied configuration does not match rotation in animation file:\n\t'Spine1'
-      : rotation error = 14.989653 deg\n\t'Spine3' : rotation error = 14.963716 deg\n\t'LeftArmRoll'
+      : rotation error = 14.989655 deg\n\t'Spine3' : rotation error = 14.963717 deg\n\t'LeftArmRoll'
       : rotation error = 4.216466 deg\n\t'LeftForeArmRoll' : rotation error = 0.575706
       deg\n\t'RightArmRoll' : rotation error = 2.937190 deg\n\t'RightForeArmRoll'
       : rotation error = 1.868122 deg\n"

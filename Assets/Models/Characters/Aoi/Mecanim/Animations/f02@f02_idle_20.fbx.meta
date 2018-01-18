@@ -318,6 +318,7 @@ ModelImporter:
     7400000: f02_idle_20
     9500000: //RootNode
     2186277476908879412: ImportLogs
+    2186277476908879414: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -333,9 +334,9 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
       rotation in copied configuration does not match rotation in animation file:\n\t'Spine1'
-      : rotation error = 6.333714 deg\n\t'Spine3' : rotation error = 6.219246 deg\n\t'LeftArmRoll'
+      : rotation error = 6.333715 deg\n\t'Spine3' : rotation error = 6.219246 deg\n\t'LeftArmRoll'
       : rotation error = 24.502409 deg\n\t'LeftForeArmRoll' : rotation error = 29.382948
-      deg\n\t'RightArmRoll' : rotation error = 7.612450 deg\n\t'RightForeArmRoll'
+      deg\n\t'RightArmRoll' : rotation error = 7.612451 deg\n\t'RightForeArmRoll'
       : rotation error = 23.450848 deg\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that

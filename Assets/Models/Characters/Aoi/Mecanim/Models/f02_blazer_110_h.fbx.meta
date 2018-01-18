@@ -324,6 +324,7 @@ ModelImporter:
     11100000: //RootNode
     13700000: f02_blazer_110_h
     2186277476908879412: ImportLogs
+    2186277476908879414: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material

@@ -318,6 +318,7 @@ ModelImporter:
     7400000: f02_sit_00
     9500000: //RootNode
     2186277476908879412: ImportLogs
+    2186277476908879414: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -334,9 +335,9 @@ ModelImporter:
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
       rotation in copied configuration does not match rotation in animation file:\n\t'Spine1'
       : rotation error = 0.857182 deg\n\t'Spine3' : rotation error = 0.777441 deg\n\t'LeftArmRoll'
-      : rotation error = 3.197887 deg\n\t'LeftForeArmRoll' : rotation error = 26.751511
+      : rotation error = 3.197886 deg\n\t'LeftForeArmRoll' : rotation error = 26.751511
       deg\n\t'RightArmRoll' : rotation error = 11.703331 deg\n\t'RightForeArmRoll'
-      : rotation error = 37.907127 deg\n"
+      : rotation error = 37.907135 deg\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
       might lower retargeting quality:\nNote: Activate translation DOF on avatar to
